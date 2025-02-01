@@ -213,8 +213,19 @@ footer {
 }
 
 .social {
-    color: darkmagenta;
     cursor: pointer;
     display: flex;
     gap: 40px;
+    align-items: center;
+}
+
+.sociall {
+    margin-top: 60px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
